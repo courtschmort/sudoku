@@ -9,4 +9,7 @@ describe('Sudoku', () => {
     let something = new Square(10, 7, 7);
     expect(something.getInput()).toEqual('Please enter a number between 1 and 9.');
   });
+  test('Each row contains all numbers from 1 to 9 with no repeats.', () => {
+    let something = new Row;
+    expect(something.getInput()).toEqual('Please enter a number between 1 and 9.');
 });
